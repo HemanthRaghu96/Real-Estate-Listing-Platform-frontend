@@ -27,7 +27,7 @@ export default function Login() {
       localStorage.setItem("email", email);
       setError(false);
       if (localStorage.getItem("login", "true")) {
-        navigate("/dashboard");
+        navigate("/items");
       }
     } catch (err) {
       console.log("Error", err.message);
