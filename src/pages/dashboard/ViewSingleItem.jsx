@@ -20,7 +20,7 @@ const ViewSingleItem = () => {
   };
 
   const handleDelete = async () => {
-    await axios.delete(`${API}deleteitems/${itemId}`);
+    await axios.delete(`${API}deleteproperty/${itemId}`);
   };
 
   return data ? (
